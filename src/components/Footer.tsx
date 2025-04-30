@@ -135,8 +135,18 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              &copy; {year} Eco Hydrogel Technology. All rights reserved.
+              &copy; {year} Website by{" "}
+              <a
+                href="https://www.linkedin.com/in/mus-tafaa-/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-soco-green-light font-semibold hover:text-white transition-colors duration-200"
+              >
+                Mustafa
+              </a>
+              . All rights reserved.
             </p>
+
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-gray-500 hover:text-white text-sm">
                 Privacy Policy
