@@ -58,11 +58,11 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <div className="rounded-lg overflow-hidden shadow-xl">
+            <div className="rounded-lg overflow-hidden shadow-xl h-[300px] sm:h-auto">
               <img
                 src="/scientist-testing-soil-stockcake.jpg"
                 alt="Scientists working with soil samples"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-6">
@@ -71,13 +71,14 @@ const About = () => {
                 </p>
               </div>
             </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-lg absolute -bottom-8 -right-8 max-w-xs">
-              <p className="text-lg font-serif italic text-gray-700">
+            <div className="bg-white p-4 rounded-lg shadow-lg absolute -bottom-4 right-0 mx-auto max-w-[240px] sm:max-w-[280px] sm:-bottom-8 sm:-right-8 sm:left-auto sm:p-6">
+              <p className="text-sm sm:text-lg font-serif italic text-gray-700">
                 "We believe that water efficiency will be the cornerstone of
                 sustainable agriculture in the coming decades."
               </p>
-              <p className="mt-4 font-medium">Ecogel Founding Team</p>
+              <p className="mt-2 sm:mt-4 text-sm sm:text-base font-medium">
+                Ecogel Founding Team
+              </p>
             </div>
           </div>
         </div>
