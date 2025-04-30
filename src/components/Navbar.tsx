@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img
-            src="../../public/Assets/logo.png"
+            src="/logo.png"
             alt="Eco_gel Logo"
             className="h-10 w-auto mr-2"
           />

@@ -1,6 +1,4 @@
 import React from "react";
-import { Droplet } from "lucide-react";
-
 const Footer = () => {
   const year = new Date().getFullYear();
 
@@ -10,8 +8,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <Droplet className="h-8 w-8 text-soco-green-light mr-2" />
-              <span className="text-2xl font-serif font-bold">Soco</span>
+              <img
+                src="/logo.png"
+                alt="Eco Hydrogel Logo"
+                className="h-10 w-10 mr-2"
+              />
+              <span className="text-2xl font-serif font-bold">Eco</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Revolutionizing agriculture with eco-friendly hydrogel technology
@@ -19,7 +21,9 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1YUDcWa56V/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-gray-700 p-2 rounded-full transition-colors duration-200"
               >
                 <svg
@@ -77,42 +81,27 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors duration-200"
-                >
+                <a href="#" className="text-gray-400 hover:text-white">
                   About Us
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors duration-200"
-                >
+                <a href="#" className="text-gray-400 hover:text-white">
                   Our Products
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors duration-200"
-                >
+                <a href="#" className="text-gray-400 hover:text-white">
                   Case Studies
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors duration-200"
-                >
+                <a href="#" className="text-gray-400 hover:text-white">
                   Resources
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-400 hover:text-white transition-colors duration-200"
-                >
+                <a href="#" className="text-gray-400 hover:text-white">
                   Contact
                 </a>
               </li>
@@ -122,11 +111,11 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Contact Info</h4>
             <ul className="space-y-3">
-              <li className="text-gray-400">Cairo , Egypt</li>
+              <li className="text-gray-400">Cairo, Egypt</li>
               <li>
                 <a
                   href="tel:+201005733065"
-                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  className="text-gray-400 hover:text-white"
                 >
                   +201005733065
                 </a>
@@ -134,7 +123,7 @@ const Footer = () => {
               <li>
                 <a
                   href="mailto:ecogel.agri@gmail.com"
-                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  className="text-gray-400 hover:text-white"
                 >
                   ecogel.agri@gmail.com
                 </a>
@@ -149,22 +138,13 @@ const Footer = () => {
               &copy; {year} Eco Hydrogel Technology. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <a
-                href="#"
-                className="text-gray-500 hover:text-white text-sm transition-colors duration-200"
-              >
+              <a href="#" className="text-gray-500 hover:text-white text-sm">
                 Privacy Policy
               </a>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-white text-sm transition-colors duration-200"
-              >
+              <a href="#" className="text-gray-500 hover:text-white text-sm">
                 Terms of Service
               </a>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-white text-sm transition-colors duration-200"
-              >
+              <a href="#" className="text-gray-500 hover:text-white text-sm">
                 Sitemap
               </a>
             </div>

@@ -49,7 +49,7 @@ const Features = () => {
       
       <div className="container relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Benefits of Soco Hydrogel</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Benefits of Eco Hydrogel</h2>
           <p className="text-gray-600 text-lg">
             Discover how our innovative soil technology improves plant health while conserving precious water resources.
           </p>

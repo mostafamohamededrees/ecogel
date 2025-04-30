@@ -60,7 +60,7 @@ const About = () => {
           <div className="relative">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
-                src="../../public/Assets/scientist-testing-soil-stockcake.jpg"
+                src="/scientist-testing-soil-stockcake.jpg"
                 alt="Scientists working with soil samples"
                 className="w-full h-auto object-cover"
               />
@@ -77,7 +77,7 @@ const About = () => {
                 "We believe that water efficiency will be the cornerstone of
                 sustainable agriculture in the coming decades."
               </p>
-              <p className="mt-4 font-medium">Soco Founding Team</p>
+              <p className="mt-4 font-medium">Ecogel Founding Team</p>
             </div>
           </div>
         </div>

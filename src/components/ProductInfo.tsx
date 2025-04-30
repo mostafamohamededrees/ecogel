@@ -36,7 +36,7 @@ const ProductInfo = () => {
                 </h3>
                 <p>
                   Eco Hydrogel absorbs water during irrigation or rainfall,
-                  swelling up to 300 times its weight. It then slowly releases
+                  swelling up to 150 times its weight. It then slowly releases
                   this moisture to plant roots as the soil dries, maintaining
                   optimal moisture levels for longer periods.
                 </p>
@@ -45,7 +45,7 @@ const ProductInfo = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-soco-earth/20 p-4 rounded-lg text-center">
                   <span className="block font-bold text-3xl text-soco-green-dark mb-2">
-                    300x
+                    150x
                   </span>
                   <span className="text-sm">Water absorption capacity</span>
                 </div>
@@ -62,13 +62,13 @@ const ProductInfo = () => {
           <div className="order-1 md:order-2 relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="../../public/Assets/environmental-conservation-plant-sustainability.jpg"
+                src="/environmental-conservation-plant-sustainability.jpg"
                 alt="Hydrogel spheres"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent">
                 <div className="absolute bottom-6 left-6 text-white">
-                  <p className="text-sm font-medium">Soco Hydrogel</p>
+                  <p className="text-sm font-medium">Eco Hydrogel</p>
                   <p className="text-xs opacity-75">
                     Water retention technology
                   </p>
@@ -81,21 +81,21 @@ const ProductInfo = () => {
         <div className="mt-16 grid md:grid-cols-3 gap-8">
           <div className="relative rounded-lg overflow-hidden shadow-lg">
             <img
-              src="../../public/Assets/Seed_raising.webp"
+              src="/Seed_raising.webp"
               alt="Healthy soil with plants"
               className="w-full h-48 object-cover"
             />
           </div>
           <div className="relative rounded-lg overflow-hidden shadow-lg">
             <img
-              src="../../public/Assets/water_drop.webp"
+              src="/water_drop.webp"
               alt="Water droplets on plant"
               className="w-full h-48 object-cover"
             />
           </div>
           <div className="relative rounded-lg overflow-hidden shadow-lg">
             <img
-              src="../../public/Assets/hydrogelpng.png"
+              src="/hydrogelpng.png"
               alt="Growing seedling"
               className="w-full h-48 object-cover"
             />

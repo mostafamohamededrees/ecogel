@@ -5,21 +5,21 @@ const coFounders = [
   {
     name: "Abdelrahman Khalaf",
     role: "Founder & CEO",
-    image: "../../public/Assets/abdelrahman.jpg",
+    image: "/abdelrahman.jpg",
     bio: "Leading visionary with a strong background in sustainable soil science.",
     linkedin: "https://linkedin.com/in/Chemist-Abdelrahman-Khalaf209",
   },
   {
     name: "Asmaa Abolyazed",
     role: "Marketing Co-Founder",
-    image: "../../public/Assets/Asmaa.jpg",
+    image: "/Asmaa.jpg",
     bio: "Creative marketing strategist passionate about sustainable product branding.",
     linkedin: "https://www.linkedin.com/in/asmaa-abolyzeed9",
   },
   {
     name: "Youssef Reda",
     role: "CPO",
-    image: "../../public/Assets/Youssef.jpg",
+    image: "/Youssef.jpg",
     bio: "Product development expert focused on innovation in eco-friendly agriculture.",
     linkedin:
       "https://www.linkedin.com/in/youssef-el-kholy-7755921ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
