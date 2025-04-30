@@ -11,7 +11,7 @@ const coFounders = [
   },
   {
     name: "Asmaa Abolyazed",
-    role: "Marketing Co-Founder",
+    role: "Marketing & Co-Founder",
     image: "/Asmaa.jpg",
     bio: "Creative marketing strategist passionate about sustainable product branding.",
     linkedin: "https://www.linkedin.com/in/asmaa-abolyzeed9",
